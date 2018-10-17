@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+  #rsvp_form {
+    text-align: center;
+    width: 100%;
+    margin-top: 10vh;
+  }
+
+  #attending_text {
+    margin-right: 1vw;
+  }
+
+  #submit_btn {
+    margin-right: 6vw;
+    margin-top: 5vh;
+  }
+
+  #rsvp_table {
+    margin-left: 25vw;
+  }
+
+  #rsvp_table_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 993px) {
+  #rsvp_form {
+    text-align: right;
+    width: 95vw;
+  }
+
+  #attending_text {
+    margin-right: 3vw;
+  }
+
+  #submit_btn {
+    margin-right: 30vw;
+    margin-top: 5vh;
+  }
+
+  #rsvp_table {
+    margin-left: 25vw;
+    display: none;
+  }
+
+  #rsvp_table_mobile {
+    text-align: right;
+    margin-left: 5vw;
+  }
+}

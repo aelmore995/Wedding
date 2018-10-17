@@ -1,0 +1,27 @@
+
+
+@media (min-width: 992px) {
+  #reception_info {
+     width: 50%;
+     margin-left: 5%;
+     display: inline-block;
+  }
+
+  #wedding_info {
+    width: 44%;
+    margin-left: 5%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 993px) {
+  #reception_info {
+     width: 40%;
+     display: inline-block;
+  }
+
+  #wedding_info {
+    width: 40%;
+    display: inline-block;
+  }
+}

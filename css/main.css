@@ -1,0 +1,183 @@
+:root {
+  --dark-navy: #0F203C;
+  --navy: #0A3A60;
+  --coral: #FFA995;
+  --pink: #FFD1D1;
+  --white: #F9EDEA;
+}
+
+body {
+    /* Full height */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: var(--white);
+    padding:0;
+}
+
+.navbar {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#33497c+0,0a1135+100 */
+background: #33497c; /* Old browsers */
+background: -moz-linear-gradient(top, #33497c 0%, #0a1135 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #33497c 0%,#0a1135 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #33497c 0%,#0a1135 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33497c', endColorstr='#0a1135',GradientType=0 ); /* IE6-9 */
+}
+
+#logo {
+  height: 6vh;
+}
+
+.container input {
+  border-radius: 10px;
+  outline: none;
+  margin: 1vh 2vh 1vh 2vh;
+  padding: 0 1vw 0 1vw;
+}
+
+.page_title {
+  width: 100% !important;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 100px !important;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+}
+
+.nav-item {
+  font-family: 'Shadows Into Light Two', cursive;
+  letter-spacing: 2;
+}
+
+#photo-scoller {
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+}
+
+#stamp-div {
+  text-align: center;
+  height: 2vh;
+}
+
+#stamp-line {
+  height: 1.5vw;
+  width: 100%;
+  position: relative;
+  bottom: 0.5vh;
+}
+
+#stamp-circle {
+  width: 10vw;
+  position: relative;
+  bottom: 6.3vw;
+
+}
+
+#stamp-text {
+  display: block;
+  position: relative;
+  text-align: center;
+  bottom: 16vw;
+  left: 0.2vw;
+  color: var(--coral);
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Shadows Into Light Two', cursive; */
+  /* font-family: 'Acme', sans-serif; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Crimson Text', serif; */
+  /* font-family: 'Pacifico', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 6.5vw;
+}
+
+#content_div {
+  margin-top: 7vh;
+}
+
+@media (min-width: 992px) {
+  .nav-item {
+    font-size: 2vw;
+    margin: 0 5px 0 5px;
+  }
+
+  .navbar {
+    height: 10vh;
+  }
+
+  .container {
+    position: absolute;
+    width: 100%;
+    top: 9vh;
+    height: 84.4vh;
+    padding: 0;
+  }
+
+  .page_title {
+    margin-top: 2vh;
+  }
+
+  #photo-scoller {
+    height: 20vw;
+  }
+
+  .scroller-image {
+    height: 100%;
+  }
+
+  .scroller-div {
+    text-align: center;
+    background: white;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 993px) {
+  .page_title {
+    margin-top: 10vh;
+  }
+
+  .navbar {
+    /* height: 8.9vh !important; */
+  }
+
+  .container {
+    position: absolute;
+    width: 100%;
+    top: 9vh;
+    height: 80vh;
+    padding: 0;
+    text-align: center;
+  }
+
+  .page_title {
+    margin-top: 2vh;
+  }
+
+  .navbar-brand {
+    height: 7vh;
+  }
+
+  .navbar-brand>img {
+    height: 7vh;
+  }
+
+  #photo-scoller {
+    height: 20vw;
+  }
+
+  .scroller-image {
+    width: 100%;
+  }
+
+  .scroller-div {
+    text-align: center;
+    background: white;
+    margin: 0px;
+  }
+}

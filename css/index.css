@@ -1,0 +1,131 @@
+:root {
+  --dark-navy: #0F203C;
+  --navy: #0A3A60;
+  --coral: #FFA995;
+  --pink: #FFD1D1;
+  --white: #F9EDEA;
+}
+
+
+@media (min-width: 992px) {
+  #wedding_info {
+    width: 100%;
+    /* display: inline-block; */
+    /* border-radius: 10px; */
+    margin-top: 10vh;
+    padding-left: 4.5vw;
+  }
+
+  .info_block th {
+    font-family: 'Crimson Text', serif;
+    color: var(--dark-navy);
+    font-size: 3vw;
+  }
+
+  .info_block td {
+    color: var(--navy);
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4vw;
+  }
+
+  #big_day {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4.5vw;
+    color: var(--navy);
+  }
+
+  .info_table {
+    margin-left: 4.6vw;
+  }
+
+  #countdown_div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border: solid 4px var(--coral);
+    border-radius: 20px;
+    padding: 20px;
+    background: #fffbf9;
+    margin: 0 2vw;
+  }
+
+  #countdown {
+    font-size: 3.5vw;
+    color: var(--coral);
+    font-family: 'Acme', sans-serif;
+  }
+
+  .spacer {
+    height: 1vh;
+  }
+
+  #mobile_wedding_info {
+    display: none;
+  }
+}
+
+@media (max-width: 993px) {
+  #wedding_info {
+    display: none;
+  }
+
+  #mobile_wedding_info {
+    border-radius: 10px;
+    margin-top: -3vh;
+  }
+
+  .info_block th {
+    font-family: 'Crimson Text', serif;
+    color: var(--dark-navy);
+    font-size: 8vw;
+  }
+
+  .info_block td {
+    color: var(--navy);
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+  }
+
+  #mobile_big_day {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 7.5vw;
+    color: var(--navy);
+  }
+
+  .info_table {
+    margin-left: 4.6vw;
+    margin-top: 5vh;
+  }
+
+  #mobile_countdown_div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border: solid 4px var(--coral);
+    border-radius: 20px;
+    padding: 6vw 4vw 0 4vw;
+    background: #fffbf9;
+  }
+
+  #mobile_countdown {
+    font-size: 7vw;
+    color: var(--coral);
+    font-family: 'Acme', sans-serif;
+  }
+
+  .spacer {
+    height: 2vh;
+  }
+
+}
+
+/*    font-family: 'Lobster', cursive;
+      font-family: 'Abril Fatface', cursive;
+      font-family: 'Shadows Into Light Two', cursive;
+      font-family: 'Acme', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Crimson Text', serif;
+      font-family: 'Pacifico', cursive;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Fredericka the Great', cursive;
+ */

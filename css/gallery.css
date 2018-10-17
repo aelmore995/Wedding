@@ -1,0 +1,31 @@
+@media (min-width: 992px) {
+  .gallery_pic {
+    width: 24vw;
+    border-radius: 10px;
+  }
+
+  #photo_table {
+    width: 100%;
+    text-align: center;
+  }
+
+  #photo_table td {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 993px) {
+  .gallery_pic {
+    width: 24vw;
+    border-radius: 10px;
+  }
+
+  #photo_table {
+    width: 100%;
+    text-align: center;
+  }
+
+  #photo_table td {
+    height: 14.4vh;
+  }
+}

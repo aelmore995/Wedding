@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+  #rsvp_form {
+    text-align: right;
+    width: 60vw;
+    margin-top: 12vh;
+  }
+
+  #attending_text {
+    margin-right: 1vw;
+  }
+
+  #submit_btn {
+    margin-right: 6vw;
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width: 993px) {
+  #rsvp_form {
+    text-align: right;
+    width: 95vw;
+  }
+
+  #attending_text {
+    margin-right: 3vw;
+  }
+
+  #submit_btn {
+    margin-right: 30vw;
+    margin-top: 5vh;
+  }
+}
